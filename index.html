@@ -18,7 +18,25 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 
     <title>The Seo Company Free Html Template</title>
-  
+    <script type="text/JavaScript">
+  ((function(){
+    var loadWidget = function(){
+      var script = "https://widget-service.emplorium.io/acc-65fbf/init.js"
+      var x = document.createElement('script');
+      var sx = document.getElementsByTagName('script')[0];
+      x.src = script; x.async = true;
+      sx.parentNode.insertBefore(x,sx)
+    }
+    if(document.readyState==="complete"){
+      loadWidget();
+    } else if (window.addEventListener){
+      window.addEventListener('load',loadWidget,false)
+    } else if (window.attachEvent) {
+      window.attachEvent("onload",loadWidget)
+    }
+  })())
+</script>
+    
   </head>
 
   <body>
